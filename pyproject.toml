@@ -1,0 +1,16 @@
+[project]
+name = "AdaIN-pytorch"
+version = "0.1.0"
+description = "implementation of Adaptive Instance Normalization (AdaIN) in PyTorch"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "pillow>=10.0.0",
+    "numpy>=1.24.0",
+    "tqdm>=4.65.0",
+    "tensorboard>=2.10.0",
+    "opencv-python>=4.8.0",
+    "imageio>=2.31.0",
+]
